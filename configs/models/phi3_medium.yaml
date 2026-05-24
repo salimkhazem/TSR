@@ -1,0 +1,6 @@
+name: phi-3-medium
+repo: microsoft/Phi-3-medium-4k-instruct
+dtype: float16
+recommended_gpu_mem_gb: 30
+quantization_fallback: nf4
+recommended_gpu_mem_gb_nf4: 12
