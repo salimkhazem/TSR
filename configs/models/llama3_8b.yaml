@@ -1,0 +1,4 @@
+name: llama-3-8b
+repo: meta-llama/Meta-Llama-3-8B-Instruct
+dtype: float16
+recommended_gpu_mem_gb: 18
