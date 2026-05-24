@@ -1,0 +1,7 @@
+model: llama-3-8b
+dataset: truthfulqa
+n: 100
+device: cuda:0
+out: results/phase1_smoke/llama3-8b_truthfulqa
+m_beta: 20
+p_t: 30
