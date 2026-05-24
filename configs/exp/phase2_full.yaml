@@ -1,0 +1,36 @@
+models:
+  - llama-3-8b
+  - llama-3.1-8b
+  - mistral-7b
+  - qwen2.5-7b
+  - phi-3-medium
+  - gemma-2-9b
+datasets:
+  - truthfulqa
+  - halueval
+  - triviaqa
+  - nq_open
+  - gsm8k
+  - math500
+  - fever
+schedule:
+  gpu_assignments:
+    cuda:0:
+      - llama-3-8b
+      - llama-3.1-8b
+    cuda:1:
+      - qwen2.5-7b
+      - gemma-2-9b
+      - phi-3-medium    # in fp16 after gemma-2 finishes (memory-aware)
+    cuda:2:
+      - mistral-7b
+      # phi-3-medium nf4 fallback if scheduling slips:
+      # - phi-3-medium-nf4
+n_per_dataset:
+  truthfulqa: null   # full 817
+  halueval: 4000
+  triviaqa: 5000
+  nq_open: 3000
+  gsm8k: 1300
+  math500: 500
+  fever: 3300
