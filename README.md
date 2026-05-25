@@ -27,7 +27,7 @@ Official implementation of *Free-Energy Signatures* (**FES**), a training-free s
 12. [Determinism and seeds](#determinism-and-seeds)
 13. [Troubleshooting](#troubleshooting)
 <!-- 14. [Citation](#citation) -->
-15. [License](#license) -->
+<!-- 15. [License](#license) --> -->
 <!-- 16. [Acknowledgements](#acknowledgements)
 17. [Anonymization (ARR / double-blind)](#anonymization-arr--double-blind) -->
 <!-- 
