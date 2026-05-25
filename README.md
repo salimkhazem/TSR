@@ -11,28 +11,6 @@ Official implementation of *Free-Energy Signatures* (**FES**), a training-free s
 
 ---
 
-<!-- ## Table of contents
-
-1. [Headline results](#headline-results)
-2. [Repository layout](#repository-layout)
-3. [Installation](#installation)
-4. [Quick start (≤ 5 min)](#quick-start--5-min)
-5. [Reproducing the paper](#reproducing-the-paper)
-6. [CLI reference](#cli-reference)
-7. [Configs](#configs)
-8. [Datasets](#datasets)
-9. [Models](#models)
-10. [Method in 60 seconds](#method-in-60-seconds)
-11. [Hardware and runtime](#hardware-and-runtime)
-12. [Determinism and seeds](#determinism-and-seeds)
-13. [Troubleshooting](#troubleshooting)
-<!-- 14. [Citation](#citation) -->
-<!-- 15. [License](#license) --> -->
-<!-- 16. [Acknowledgements](#acknowledgements)
-17. [Anonymization (ARR / double-blind)](#anonymization-arr--double-blind) -->
-<!-- 
---- -->
-
 ## Repository layout
 
 ```
