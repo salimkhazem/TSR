@@ -39,7 +39,7 @@ Official implementation of *Free-Energy Signatures* (**FES**), a training-free s
 .
 ├── src/
 │   ├── fes/          # Core: Z, F, S, C, SFF, GOE reference
-│   ├── baselines/    # LapEigvals, Noël-4, perplexity / MSP
+│   ├── baselines/    # LapEigvals, GoR-4, perplexity / MSP
 │   ├── data/         # Dataset loaders + prompt templates
 │   ├── models/       # HF wrapper with attention extraction
 │   ├── probes/       # 5-fold logistic probe
