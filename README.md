@@ -5,13 +5,13 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-%E2%89%A52.3-ee4c2c)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](#license)
-[![Paper](https://img.shields.io/badge/paper-arXiv%3AXXXX.XXXXX-b31b1b)](https://arxiv.org/abs/XXXX.XXXXX)
+<!-- [![Paper](https://img.shields.io/badge/paper-arXiv%3AXXXX.XXXXX-b31b1b)](https://arxiv.org/abs/XXXX.XXXXX) -->
 
 Official implementation of *Free-Energy Signatures* (**FES**), a training-free spectral descriptor for hallucination detection in large language models. FES treats each attention layer's graph Laplacian as a Hamiltonian and extracts its thermodynamic potentials (partition function, free energy, spectral entropy, heat capacity) together with the random-matrix-theory (RMT) spectral form factor. Across **6 LLMs × 6 benchmarks**, FES achieves a new SOTA for training-free hallucination detection (**+6.5 AUROC** over the strongest spectral baseline) and reveals a falsifiable signature of generation quality: valid reasoning produces Wigner–Dyson level statistics, hallucinations produce Poisson-like statistics.
 
 ---
 
-## Table of contents
+<!-- ## Table of contents
 
 1. [Headline results](#headline-results)
 2. [Repository layout](#repository-layout)
@@ -26,12 +26,12 @@ Official implementation of *Free-Energy Signatures* (**FES**), a training-free s
 11. [Hardware and runtime](#hardware-and-runtime)
 12. [Determinism and seeds](#determinism-and-seeds)
 13. [Troubleshooting](#troubleshooting)
-14. [Citation](#citation)
-15. [License](#license)
-16. [Acknowledgements](#acknowledgements)
-17. [Anonymization (ARR / double-blind)](#anonymization-arr--double-blind)
-
----
+<!-- 14. [Citation](#citation) -->
+15. [License](#license) -->
+<!-- 16. [Acknowledgements](#acknowledgements)
+17. [Anonymization (ARR / double-blind)](#anonymization-arr--double-blind) -->
+<!-- 
+--- -->
 
 ## Repository layout
 
